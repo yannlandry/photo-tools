@@ -37,7 +37,7 @@ def main():
     print("\nDry run returned with code {}".format(dry_run_result))
 
     # Safe confirmation
-    confirm = input("Do you want to proceed with an actual run? Type `proceed` to continue. ")
+    confirm = input("Do you want to proceed with an actual run? Type `proceed` to continue: ")
     if confirm != "proceed":
         print("Aborting")
         exit()
